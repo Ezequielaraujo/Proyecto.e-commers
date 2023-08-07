@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
     <!--link a boostrap-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--link a iconos de boostrap-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <!-- link al css -->
     <link rel="stylesheet" href="css/style.css">
     <title>Powerboost</title>
@@ -61,24 +63,24 @@
         <section class="carrusel">
             <div class="carouselslide" data-bs-ride="carousel">
                 <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="assets/images/slide1.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/slide2.jpg" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="assets/images/slide3.jpg" class="d-block w-100" alt="...">
-                  </div>
+                    <div class="carousel-item active">
+                        <img src="assets/images/slide1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/slide2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/images/slide3.jpg" class="d-block w-100" alt="...">
+                </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
+                   <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   <span class="visually-hidden">Next</span>
                 </button>
-              </div>
+            </div>
         </section>
         <section class="descripcion">
             <div class="descripcioncards">
@@ -144,27 +146,24 @@
         </section>
     </main>
     <!--Footer-->
-    <footer class="footer">
-        <div class="button-idioma">
-            <button class="button-footer">
-                <h3>Español</h3>
-            </button>
-            <button class="button-footer">
-                <h3>Ingles</h3>
-            </button>
-            <button class="button-footer">
-                <h3>Frances</h3>
-            </button>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top bg-body-secondary">
+        <div class="texto-footer">
+            <h2>© 2023 Powerboost</h2>
         </div>
-        <div class="suscribirme">
-            <input type="text" placeholder="Mail" class="input-footer">
-            <button class="button-footer">
-                <h3>Suscribirme</h3>
-            </button>
-        </div>
-        <div class="text-footer">
-            <h2>Powerboost 2023</h2>
-        </div>
+        <form class="novedades-footer">
+            <h4>Suscribite para recibir novedades</h3>
+            <h5>Nuevos productos y semanas de descuento.</h4>
+            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+               <label for="newsletter1" class="visually-hidden">Email</label>
+               <input id="newsletter1" type="text" class="form-control" placeholder="Ingresa tu Email">
+               <button class="btn btn-primary" type="button">Suscribite</button>
+            </div>
+        </form>
+        <ul class="contacto-footer">
+            <i class="bi bi-facebook icon-footer"></i>
+            <i class="bi bi-whatsapp icon-footer"></i>
+            <i class="bi bi-instagram icon-footer"></i>
+        </ul>
     </footer>
 <!--script boostrap-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>

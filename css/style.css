@@ -22,11 +22,18 @@ h2 {
 h3 {
     color: rgb(0, 0, 0);
     font-family: 'Inter', sans-serif;
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 400;
 }
 
 h4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Inter', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+h5 {
     color: rgb(0, 0, 0);
     font-family: 'Inter', sans-serif;
     font-size: 15px;
@@ -59,7 +66,6 @@ header {
 /* main */
 main {
     background-color: #eeeeee;
-    overflow: hidden;
     text-align: center;
     padding-top: 59px;
 }
@@ -181,7 +187,7 @@ main {
 
 .card_body1 {
     width: 20%;
-    height: 380px;
+    height: 320px;
     border-radius: 20px;
     background-color: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -194,14 +200,16 @@ main {
 }
 
 .card_body1 img {
-    width: 80%;
-    height: 75%;
+    width: 85%;
+    height: 85%;
     object-fit: cover;
     border-radius: 15px;
     padding: 20px 0px;
 }
 
 .card_body1 h2 {
+    padding: 20px;
+    text-align: end;
     font-size: 17px;
     color: #414141;
 }
@@ -404,44 +412,27 @@ main {
 }
 
 /* footer */
-
-footer {
-    display: inline-flex;
-    justify-content: space-around;
-    background-color: #242424;
-    width: 100%;
-    height: 100%px;
+.footer-body {
+    background-color: aqua;
 }
 
-.button-footer {
-    border: none;
-    outline: none;
-    background-color: #b6b6b6;
-    border-radius: 15px;
-    margin: 0px 20px;
+.texto-footer {
+    padding-left: 30px;
 }
 
-.input-footer {
-    width: 300px;
-    height: 50px;
-    border-radius: 17.5px;
-    padding: 0px 15px;
-}
-
-
-.button-footer h3 {
-    font-size: 17px;
+.texto-footer h2 {
+    font-size: 20px;
     color: #414141;
-    padding: 0px 10px;
 }
 
-footer h2 {
-    color: #cacaca;
+.icon-footer {
+    font-size: 25px;
+    padding: 10px;
+    color: #4b4b4b;
 }
 
-footer div {
-    display: inline-flex;
-    padding: 30px;
+.contacto-footer {
+    padding-right: 30px;
 }
 
 /*media queries*/
@@ -457,7 +448,7 @@ footer div {
     }
     .logo img {
         width: 50%;
-        height: 70px;
+        height: 50px;
         display: inline-flex;
     }
     .logo div h2{
@@ -491,17 +482,14 @@ footer div {
         margin-top: 0%;
     }
     .card_body1{
-        height: 400px;
+        height: 320px;
         width: 70%;
         padding: 0px;
         margin: 25px;
     }
     .card_body1 img{
-        width: 82%;
-        height: 70%;
-    }
-    .card_body1 h2{
-        margin-top: 50px;
+        width: 90%;
+        height: 80%;
     }
     .cardscategorias{
         flex-direction: column;
