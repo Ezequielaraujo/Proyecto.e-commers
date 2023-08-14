@@ -1,0 +1,24 @@
+.footer-body {
+  background-color: aqua;
+}
+
+.texto-footer {
+  padding-left: 30px;
+}
+
+.texto-footer h2 {
+  font-size: 20px;
+  color: #000000;
+}
+
+.icon-footer {
+  font-size: 25px;
+  padding: 10px;
+  color: #4b4b4b;
+}
+
+.contacto-footer {
+  padding-right: 30px;
+}
+
+/*# sourceMappingURL=-footer.css.map */
