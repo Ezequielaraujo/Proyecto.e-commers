@@ -1,16 +1,24 @@
 //base
-@import "base/-reset.scss";
+@import "base/reset";
+@import "base/variables";
 
 //components
-@import "components/-navbar.scss";
-@import "components/-footer.scss";
+@import "components/navbar";
+@import "components/footer";
+@import "components/banner";
 
 //layout
-@import "layout/-index.scss";
-@import "layout/-categorias.scss";
-@import "layout/-favoritos.scss";
-@import "layout/-carrito.scss";
-@import "layout/-galeria.scss";
+@import "layout/index";
+@import "layout/categorias";
+@import "layout/favoritos";
+@import "layout/carrito";
+@import "layout/galeria";
+
+//media queries
+@import "layout/mediaqueries";
+
+
+
 
 
 

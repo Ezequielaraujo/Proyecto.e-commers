@@ -1,15 +1,16 @@
 .footer-body {
     background-color: aqua;
+    padding-top: 30px;
 }
 
 .texto-footer {
     padding-left: 30px;
+    h2 {
+        font-size: 20px;
+        color: #000000;
+    }
 }
 
-.texto-footer h2 {
-    font-size: 20px;
-    color: #000000;
-}
 
 .icon-footer {
     font-size: 25px;

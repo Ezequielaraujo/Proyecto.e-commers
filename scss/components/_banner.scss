@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    margin: 0px;
+    background-color: #ffffff;
+    padding: 20px 0px;   
+}
+
+.logo {
+    display: inline-flex;
+    justify-content: center;
+    width: 100%;
+
+    a img {
+        display: inline-flex;
+        align-self: center;
+        width: 100%; 
+    }
+    div {
+        width: 50%;
+        text-align: left;
+        padding: 30px;
+    }
+}
