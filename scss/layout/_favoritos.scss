@@ -8,13 +8,8 @@
 }
 
 .card_body3 {
-    display: inline-flex;
-    flex-direction: column;
+    @include flex(column, center, 40%, 400px, 20px, #fafafaee);
     align-content: center;
-    width: 40%;
-    height: 400px;
-    border-radius: 20px;
-    background-color: $color-cards;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 
     &:hover {
@@ -22,11 +17,8 @@
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
     img {
-        display: flex;
-        width: 300px;
-        height: 300px;
-        margin: 0px 20px;
-        object-fit: cover;
+        @include img(50%, 55%, cover, 15px);
+        
     }
     h2 {
         font-size: 17px;

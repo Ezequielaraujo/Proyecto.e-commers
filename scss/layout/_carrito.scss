@@ -7,22 +7,13 @@
 }
 
 .cardcarrito {
-    display: flex;
-    flex-direction: column;
+    @include flex(column, center, 35%, none, 15px, #fafafaee);
     align-items: center;
-    width: 35%;
-    background-color: $color-cards;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     margin: 50px 40px;
     padding: 20px;
-    border-radius: 15px;
     img {
-        display: flex;
-        width: 65%;
-        height: 70%;
-        padding: 20px;
-        object-fit: cover;
-        border-radius: 15px;
+        @include img(65%, 70%, cover, 15px);
     }    
     h2 h3 {
         font-size: 20px;
