@@ -68,6 +68,18 @@ header {
   font-weight: 400;
 }
 
+.btn {
+  color: rgb(255, 255, 255);
+}
+
+.btn-outline-success {
+  background-color: #414141;
+  border-color: black;
+}
+.btn-outline-success:hover {
+  background-color: black;
+}
+
 .texto-footer {
   padding-left: 30px;
 }
@@ -113,14 +125,14 @@ header {
   padding: 30px;
 }
 
-.carrusel {
+.slide {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   position: relative;
   z-index: 1;
   background-color: rgba(238, 238, 238, 0.9333333333);
-  width: 80%;
+  width: 85%;
   margin-top: 20px;
 }
 
@@ -161,7 +173,7 @@ header {
   transition: transform 0.3s ease;
 }
 .card_body:hover {
-  transform: scale(1.05);
+  transform: scale(1.007);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .card_body img {
@@ -222,7 +234,7 @@ header {
   transition: transform 0.3s ease;
 }
 .card_body1:hover {
-  transform: scale(1.05);
+  transform: scale(1.005);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .card_body1 img {
@@ -310,7 +322,7 @@ header {
   transition: transform 0.3s ease;
 }
 .card_body2:hover {
-  transform: scale(1.05);
+  transform: scale(1.007);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .card_body2 img {
@@ -350,7 +362,7 @@ header {
   transition: transform 0.3s ease;
 }
 .card_body3:hover {
-  transform: scale(1.05);
+  transform: scale(1.01);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .card_body3 img {
@@ -414,11 +426,6 @@ header {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 50px 40px;
   padding: 20px;
-  transition: transform 0.3s ease;
-}
-.cardcarrito:hover {
-  transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .cardcarrito img {
   width: 65%;
@@ -431,6 +438,7 @@ header {
   margin: 30px;
   text-align: center;
   color: #414141;
+  padding: 10px;
 }
 
 .grilla {
@@ -597,8 +605,13 @@ header {
   .card_body3 h3 {
     text-align: center;
   }
+  .carrito {
+    padding: 0;
+    margin: 0;
+  }
   .cardcarrito {
-    width: 100%;
+    width: 85%;
+    margin: 0%;
   }
   .cardcarrito img {
     width: 80%;
@@ -621,23 +634,20 @@ header {
     justify-content: center;
     flex-direction: column;
   }
-  .button-idioma {
-    justify-content: center;
-    padding: 10px;
+  .texto-footer {
+    width: 100%;
+    padding: 0;
+    text-align: center;
   }
-  .button-footer h3 {
+  .novedades-footer {
+    padding: 10px;
+    justify-content: center;
+  }
+  .novedades-footer h3 {
     font-size: 15px;
   }
-  .suscribirme {
-    padding: 10px;
-    justify-content: center;
-  }
-  .text-footer {
-    padding: 10px 0px 20px 0px;
-    justify-content: center;
-  }
-  .text-footer h2 {
-    font-size: 20px;
+  .novedades-footer h4 {
+    font-size: 15px;
   }
 }
 

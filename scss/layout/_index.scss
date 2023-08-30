@@ -1,11 +1,11 @@
-.carrusel {
+.slide {
     display: inline-flex;
     justify-content: center;
     align-items: center;
     position: relative;
     z-index: 1;
     background-color: #eeee;
-    width: 80%;
+    width: 85%;
     margin-top: 20px;
 }
 
@@ -41,7 +41,7 @@
     transition: transform 0.3s ease;
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.007);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
     img {
@@ -95,7 +95,7 @@
     transition: transform 0.3s ease;
 
     &:hover {
-        transform: scale(1.05);
+        transform: scale(1.005);
         box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
     }
     img {

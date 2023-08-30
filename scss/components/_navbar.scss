@@ -13,10 +13,24 @@ header {
 
 .container-fluid {
     padding: 0px 30px;
+
 }
 
 .nav-link {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
     font-weight: 400;
+}
+
+.btn {
+    color: rgb(255, 255, 255);
+}
+
+.btn-outline-success {
+    background-color: #414141;
+    border-color: black;
+
+    &:hover {
+        background-color: black;
+    }
 }
