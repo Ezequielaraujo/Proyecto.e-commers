@@ -1,18 +1,20 @@
- //mixin con parametros
- 
- @mixin flex($direction, $justify, $width, $height, $border, $bgcolor) {
-   display: flex;
-   flex-direction: $direction;
-   justify-content: $justify;
-   width: $width;
-   height: $height;
-   border-radius: $border;
-   background-color: $bgcolor;
- }
+//mixin con parametros
+
+@mixin flex($direction, $justify, $width, $height, $border, $bgcolor) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  width: $width;
+  height: $height;
+  border-radius: $border;
+  background-color: $bgcolor;
+}
 
 @mixin img($width, $height, $cover, $border) {
-   width: $width;
-   height: $height;
-   object-fit: $cover;
-   border-radius: $border;
+  width: $width;
+  height: $height;
+  object-fit: $cover;
+  border-radius: $border;
 }
+
+

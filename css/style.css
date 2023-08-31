@@ -69,7 +69,7 @@ header {
 }
 
 .btn {
-  color: rgb(255, 255, 255);
+  color: #ffffff;
 }
 
 .btn-outline-success {
@@ -196,11 +196,13 @@ header {
 }
 
 .buttoncard {
-  color: #414141;
+  width: 200px;
+  background-color: #bd001c;
   border-radius: 20px;
   padding: 8px;
   padding-top: 12px;
   border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease;
 }
 .buttoncard:hover {
@@ -208,8 +210,9 @@ header {
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .buttoncard h4 {
+  color: white;
   font-size: 15px;
-  padding: 3px;
+  font-weight: 400;
 }
 
 .cardsmarcas {
@@ -393,6 +396,7 @@ header {
   margin: 40px;
   border-radius: 35px;
   height: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.6s ease;
 }
 .buttoncomprar:hover {
@@ -401,7 +405,7 @@ header {
 }
 .buttoncomprar h2 {
   padding: 15px 20px;
-  background-color: #383838;
+  background-color: #bd001c;
   color: #ffffff;
   border-radius: 35px;
 }
@@ -410,7 +414,7 @@ header {
   display: flex;
   justify-content: center;
   background-color: rgba(238, 238, 238, 0.9333333333);
-  padding: 20px;
+  padding: 0px;
   text-align: center;
 }
 
@@ -438,7 +442,17 @@ header {
   margin: 30px;
   text-align: center;
   color: #414141;
-  padding: 10px;
+}
+
+.button {
+  height: 90px;
+}
+
+.buttoncarrito {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
 }
 
 .grilla {
@@ -622,6 +636,9 @@ header {
   }
   .cardcarrito h3 {
     font-size: 15px;
+  }
+  .button {
+    padding: 30px;
   }
   .grilla {
     display: grid;
